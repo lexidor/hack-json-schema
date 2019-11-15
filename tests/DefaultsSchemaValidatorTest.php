@@ -70,7 +70,7 @@ final class DefaultsSchemaValidatorTest extends BaseCodegenTestCase {
   }
 
   public function testNestedCoerceFalse(): void {
-    // This test is doing nothing, unused variable
+    // This test is doing nothing, unused variable HH_FIXME HHAST_IGNORE_ERROR TODO
     $_cases = vec[
       shape(
         'input' => [
